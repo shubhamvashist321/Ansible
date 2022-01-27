@@ -1,8 +1,0 @@
----
-- hosts: all
-  become: yes
-  tasks:
-  - name: Installling Apache
-    yum:
-      name: httpd
-      state: present
